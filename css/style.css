@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Lato;
+}
+
+.center{
+    max-width: 1100px;
+    padding: 0 2%;
+    margin: 0 auto;
+}
+
+.clear{
+    clear: both;
+}
+
+header{
+    background: linear-gradient(#4e69a2, #3b5998);
+    padding: 15px 0;
+}
+
+.logo{
+    float: left;
+    color: white;
+}
+
+.logo h2{
+    font-size: 36px;
+    padding-top: 8px;
+}
+
+form.form-login{
+    float: right;
+}
+
+.form-login .form-element{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.form-element p{
+    color: white;
+    padding-bottom: 5px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-element input[type=email],
+.form-element input[type=password]{
+    margin-top: 4px;
+    border: 0;
+    height: 18px;
+    padding-left: 3px;
+}
+
+.form-element input[type=submit]{
+    cursor: pointer;
+    background: #4267b2;
+    border: 1px solid #29487d;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 3px 5px;
+}
+
+.form-element input[type=submit]:hover{
+    background: #3b5998;
+    transition: 0.2s;
+}
+
+section.main{
+    background: linear-gradient(white, #D3D8E8);
+    padding: 40px 0;
+}
+
+.img-people {
+    float: left;
+    width: 58%;
+
+}
+
+.img-people img{
+    max-width: 100%;
+}
+
+.img-people h2{
+    color: #333333;
+    font-size: 30px;
+    padding: 20px 90px 20px 0px;
+}
+
+.sign-up{
+    width: 42%;
+    float: left;
+}
+
+.sign-up h2{
+    color: #333333;
+    font-size: 36px;
+}
+
+.sign-up h3{
+    color: #333333;
+    font-size: 19px;
+    margin-top: 4px;
+    font-weight: 400;
+}
+
+form.create-account{
+    margin-top: 10px;
+}
+
+.w50{
+    width: 50%;
+    float: left;
+}
+
+.w50:first-child{
+    padding-right: 10px;
+}
+
+.w100{
+    width: 100%;
+    float: left;
+}
+
+form.create-account input{
+    width: 100%;
+    margin-top: 10px;
+}
+
+form.create-account input[type=text],
+form.create-account input[type=email],
+form.create-account input[type=password]{
+    height: 40px;
+    font-size: 18px;
+    border: 1px solid #bdc7d8;
+    border-radius: 5px;
+    padding: 8px 10px; 
+}
+
+form.create-account input[type=submit]{
+    height: 40px;
+    width: 194px;
+    color: white;
+    cursor: pointer;
+    font-size: 19px;
+    background: linear-gradient(#67ae55, #578843);
+    background-color: #69a74e;
+    box-shadow: inset 0 1px 1px #a4e388;
+    border: 1px solid;
+    border-color: #3b6e22 #3b6e22 #2c5115;
+    border-radius: 5px;
+}
+
+form.create-account input[type=submit]:hover{
+    background: linear-gradient(#74c260, #578843);
+    background-color: #69a74e;
+    box-shadow: inset 0 1px 1px #a4e388;
+
+}
+
+form .w100 h3{
+    margin-top: 12px;
+    color: #1d2129;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+form select.birthday{
+    float: left;
+    margin-top: 7px;
+}
+
+form .w100 > select{
+    width: 62px;
+    height: 30px;
+    border: 1px solid #bdc7d8;
+    padding-left: 5px;
+}
+
+.input-radio{
+    float: left;
+    margin: 7px;
+}
+
+.input-radio h3{
+    margin-left: 5px;
+    display: inline-block;
+}
+
+
+.input-radio input[type=radio]{
+    width: auto !important; 
+    display: inline-block;
+    margin-left: 15px;
+}
