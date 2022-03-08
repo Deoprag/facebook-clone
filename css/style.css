@@ -193,5 +193,5 @@ form .w100 > select{
 .input-radio input[type=radio]{
     width: auto !important; 
     display: inline-block;
-    margin-left: 15px;
+    margin-left: 5px;
 }
