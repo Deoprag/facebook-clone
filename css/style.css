@@ -140,11 +140,12 @@ form.create-account input[type=password]{
 }
 
 form.create-account input[type=submit]{
+    font-weight: bold;
     height: 40px;
-    width: 194px;
+    width: 170px;
     color: white;
     cursor: pointer;
-    font-size: 19px;
+    font-size: 18px;
     background: linear-gradient(#67ae55, #578843);
     background-color: #69a74e;
     box-shadow: inset 0 1px 1px #a4e388;
@@ -172,6 +173,17 @@ form select.birthday{
     margin-top: 7px;
 }
 
+.provide-birth{
+    color: #3b5998;
+    display: inline-block;
+    max-width: 150px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 10px;
+    padding: 10px 0 0 8px;
+    text-align: left;
+}
+
 form .w100 > select{
     width: 62px;
     height: 30px;
@@ -180,8 +192,8 @@ form .w100 > select{
 }
 
 .input-radio{
+    margin: 0 auto;
     float: left;
-    margin: 7px;
 }
 
 .input-radio h3{
@@ -194,4 +206,83 @@ form .w100 > select{
     width: auto !important; 
     display: inline-block;
     margin-left: 5px;
+}
+
+.w100 .terms{
+    margin: 10px 0;
+    display: inline-block;
+    width: 100%;
+    color: #7c7c7c;
+    font-size: 10px;
+}
+
+.terms a, .create-page a{
+    color: #3b5998;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.create-page{
+    margin-top: 25px;
+    border-top: 1px solid #c7c7c7;
+}
+
+.create-page p{
+    padding-top: 20px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #646464;
+}
+
+.before-footer{
+    text-align: center;
+}
+
+.languages{
+    margin-top: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #c7c7c7;
+}
+
+.languages a{
+    float: left;
+    padding-right: 10px;
+    text-decoration: none;
+    font-size: 12px;
+    color: #29487d;
+}
+
+.languages a:first-child{
+    color: #646464;
+}
+
+.languages a:hover{
+    text-decoration: underline #29487d 1px;
+}
+
+.languages button{
+    float: left;
+    width: 30px;
+    height: 20px;
+    background-color: #f6f7f9;
+    border: 1px solid #ced0d4;
+    cursor: pointer;
+}
+
+.languages button p{
+    font-size: 14px;
+    color: #747474;
+}
+
+.languages button:hover{
+    background-color: #ebedf0;
+}
+
+.footer-tr a{
+    float: left;
+    display: block;
+    text-decoration: none;
+    font-size: 13px;
+    color: #29487d;
+    text-align: center;
 }

@@ -111,7 +111,7 @@
                                 <option value="<?php echo $i; ?>"><?php echo $i; ?></option>
                                 <?php } ?>
                             </select>
-
+                            <p class="provide-birth">Why do i need to provide my birthday?</p>
                         </div> <!--W100-->
 
                         <div class="w100">
@@ -124,24 +124,79 @@
                                 <input type="radio" value="male"/>
                                 <h3>Male</h3>
                             </div> <!--Radio-->
+                            <div class="terms">
+                                <p>By clicking Sign Up, you agree to our <a href="#">Terms</a> and that you have<br> read our <a href="#">Data Policy</a>, including our <a href="#">Cookie Use</a>.</p>
+                            </div> <!--Terms-->
                             <div class="clear"></div><!--Clear-->
-                        </div>
+                        </div> <!--W100-->
 
                         <div class="w100">
                             <input type="submit" name="action" value="Sign Up"/>
-                        </div> <!--W100-->
+                        </div> <!--W100 Button-->
                         <div class="clear"></div><!--Clear-->
-
                     </form> <!--Create-Account-->
+                    <div class="create-page">
+                        <p><a>Create a Page</a> for a celebrity, band or business.</p>
+                    </div> <!--Create Page-->
                 </div> <!--Sign-Up-->
             <div class="clear"></div> <!--Clear-->
             </div> <!--Center-->
         </section> <!--Main-->
+
         <section class="before-footer">
-
-
-        </section> <!--Languages-->
-        
+            <div class="center">
+                <div class="languages">
+                    <a href="#">English (US)</a>
+                    <a href="#">Español</a>
+                    <a href="#">Français (France)</a>
+                    <a href="#">中文(简体)</a>
+                    <a href="#">العربية</a>
+                    <a href="#">Português (Brasil)</a>
+                    <a href="#">Italiano</a>
+                    <a href="#">한국어</a>
+                    <a href="#">Deustch</a>
+                    <a href="#">हिन्दी</a>
+                    <a href="#">日本語</a>
+                    <button><p>+</p></button>
+                    <div class="clear"></div><!--Clear-->
+                </div>
+            </div>
+        </section> <!--Before-Footer-->
+        <footer>
+            <div class="center">
+                <div class="footer-tr">
+                    <a href="#">Sign Up</a>
+                    <a href="#">Log In</a>
+                    <a href="#">Messenger</a>
+                    <a href="#">Facebook Lite</a>
+                    <a href="#">Mobile</a>
+                    <a href="#">Find Friends</a>
+                    <a href="#">Badges</a>
+                    <a href="#">People</a>
+                    <a href="#">Pages</a>
+                    <a href="#">Places</a>
+                    <a href="#">Games</a>
+                </div>
+                <div class="footer-tr">
+                    <a href="#">Locations</a>
+                    <a href="#">Celebrities</a>
+                    <a href="#">Groups</a>
+                    <a href="#">Moments</a>
+                    <a href="#">About</a>
+                    <a href="#">Create Ad</a>
+                    <a href="#">Create Page</a>
+                    <a href="#">Developers</a>
+                    <a href="#">Careers</a>
+                    <a href="#">Privacy</a>
+                    <a href="#">Cookies</a>
+                </div>
+                <div class="footer-tr">
+                    <a href="#">Ad Choices</a>
+                    <a href="#">Terms</a>
+                    <a href="#">Help</a>
+                </div>
+            </div> <!--Center-->
+        </footer>
     </body>
 
 </html>
