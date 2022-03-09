@@ -44,7 +44,6 @@
 
         <section class="main">
             <div class="center">
-
                 <div class="img-people">
                     <h2>Connect with friends and the
                         world around you on Facebook.</h2>
@@ -78,7 +77,7 @@
                             <h3>Birthday</h3>
 
                             <select name="month" class="birthday">
-                                <!--Aplicar depois o PHP-->
+                                <!--Apply PHP later-->
                                 <option value="0" selected="1">Month</option>
                                 <option value="1">Jan</option>
                                 <option value="2">Feb</option>
@@ -96,20 +95,12 @@
 
                             <select name="day" class="birthday">
                                 <option value="0">Day</option>
-                                <?php
-                                    for($i = 1; $i <= 31; $i++){
-                                ?>
-                                <option value="<?php echo $i; ?>"><?php echo $i; ?></option>
-                                <?php } ?>
+                                <option value="0">Day</option>
                             </select>
 
                             <select name="year" class="birthday">
                                 <option value="0">Year</option>
-                                <?php
-                                    for($i = 1905; $i <= 2022; $i++){
-                                ?>
-                                <option value="<?php echo $i; ?>"><?php echo $i; ?></option>
-                                <?php } ?>
+                                <!--Apply PHP later-->
                             </select>
                             <p class="provide-birth">Why do i need to provide my birthday?</p>
                         </div> <!--W100-->
@@ -164,37 +155,37 @@
         </section> <!--Before-Footer-->
         <footer>
             <div class="center">
-                <div class="footer-tr">
-                    <a href="#">Sign Up</a>
-                    <a href="#">Log In</a>
-                    <a href="#">Messenger</a>
-                    <a href="#">Facebook Lite</a>
-                    <a href="#">Mobile</a>
-                    <a href="#">Find Friends</a>
-                    <a href="#">Badges</a>
-                    <a href="#">People</a>
-                    <a href="#">Pages</a>
-                    <a href="#">Places</a>
-                    <a href="#">Games</a>
-                </div>
-                <div class="footer-tr">
-                    <a href="#">Locations</a>
-                    <a href="#">Celebrities</a>
-                    <a href="#">Groups</a>
-                    <a href="#">Moments</a>
-                    <a href="#">About</a>
-                    <a href="#">Create Ad</a>
-                    <a href="#">Create Page</a>
-                    <a href="#">Developers</a>
-                    <a href="#">Careers</a>
-                    <a href="#">Privacy</a>
-                    <a href="#">Cookies</a>
-                </div>
-                <div class="footer-tr">
-                    <a href="#">Ad Choices</a>
-                    <a href="#">Terms</a>
-                    <a href="#">Help</a>
-                </div>
+                <tr class="footer-tr">
+                    <td><a href="#">Sign Up</a></td>
+                    <td><a href="#">Log In</a></td>
+                    <td><a href="#">Messenger</a></td>
+                    <td><a href="#">Facebook Lite</a></td>
+                    <td><a href="#">Mobile</a></td>
+                    <td><a href="#">Find Friends</a></td>
+                    <td><a href="#">Badges</a></td>
+                    <td><a href="#">People</a></td>
+                    <td><a href="#">Pages</a></td>
+                    <td><a href="#">Places</a></td>
+                    <td><a href="#">Games</a></td>
+                </tr>
+                <tr class="footer-tr">
+                    <td><a href="#">Locations</a></td>
+                    <td><a href="#">Celebrities</a></td>
+                    <td><a href="#">Groups</a></td>
+                    <td><a href="#">Moments</a></td>
+                    <td><a href="#">About</a></td>
+                    <td><a href="#">Create Ad</a></td>
+                    <td><a href="#">Create Page</a></td>
+                    <td><a href="#">Developers</a></td>
+                    <td><a href="#">Careers</a></td>
+                    <td><a href="#">Privacy</a></td>
+                    <td><a href="#">Cookies</a></td>
+                </tr>
+                <tr class="footer-tr">
+                    <td><a href="#">Ad Choices</a></td>
+                    <td><a href="#">Terms</a></td>
+                    <td><a href="#">Help</a></td>
+                </tr>
             </div> <!--Center-->
         </footer>
     </body>
