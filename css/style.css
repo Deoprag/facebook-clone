@@ -23,6 +23,7 @@ header{
 .logo{
     float: left;
     color: white;
+    cursor: pointer;
 }
 
 .logo h2{
@@ -231,6 +232,10 @@ form .w100 > select{
     color: #3b5998;
     cursor: pointer;
     text-decoration: none;
+}
+
+.terms a:hover, .create-page a:hover, .provide-birth:hover{
+    text-decoration: underline 1px #3b5998;
 }
 
 .create-page{
